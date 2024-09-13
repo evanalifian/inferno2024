@@ -1,32 +1,46 @@
 .container {
-  max-width: 72rem;
-  margin: 0 auto;
-  padding: 0 1rem;
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .py {
-  padding: 0 0 10rem;
+    padding: 0 0 10rem;
 }
 
 .card {
-  height: 440px;
-  position: relative;
-  border: solid 1px rgb(63 63 70);
-  border-radius: 12px;
-  padding: 12px;
+    height: 440px;
+    position: relative;
+    border: solid 1px rgb(63 63 70);
+    border-radius: 12px;
+    padding: 12px;
 }
 
 .card_image {
-  height: 100%;
-  position: relative;
-  border-radius: 8px;
-  overflow: hidden;
+    height: 100%;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .card_description {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card_arrow_link {
   position: absolute;
-  bottom: 24px;
-  left: 24px;
+  top: 24px;
+  right: 24px;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  column-gap: 6px;
+}
+
+.card_arrow_link > * {
+  color: rgb(161 161 170);
+  stroke: #a1a1aa;
 }
