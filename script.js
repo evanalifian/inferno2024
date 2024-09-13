@@ -14,7 +14,7 @@ async function friendListsElement() {
           <a href="${i.web}" target="_blank">
             <figure class="card" title="${i.nama}">
               <div class="card_image">
-                <img src="${i.fotoselfie}" alt="${i.nama}" width="100%">
+                <img src="${i.fotoformal}" alt="${i.nama}" width="100%">
               </div>
               <span class="card_arrow_link">
                 <span>Visit site</span>

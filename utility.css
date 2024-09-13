@@ -23,6 +23,11 @@
     overflow: hidden;
 }
 
+.card_image img {
+  height: 100%;
+  object-fit: cover;
+}
+
 .card_description {
     position: absolute;
     bottom: 24px;
